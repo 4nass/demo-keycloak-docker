@@ -1,0 +1,19 @@
+# traefik/config.yml
+http:
+  routers:
+    traefik:
+      rule: "Host(`traefik.docker.local`)"
+      service: "api@internal"
+      tls:
+        domains:
+          - main: "docker.local"
+            sans:
+              - "*.docker.local"
+          - main: "domain.local"
+            sans:
+              - "*.domain.local"
+
+tls:
+  certificates:
+    - certFile: "/etc/certs/local-cert.pem"
+      keyFile: "/etc/certs/local-key.pem"
