@@ -70,24 +70,24 @@ user@docker:~$ docker-compose logs -f
 
 - Reverse proxy: Traefik 
 
-    ![Alt text](https://github.com/AnassChahbouni/DockerKeycloakWorkshop/blob/master/images/traefik.png?raw=true "Traefik")
+    ![Alt text](https://github.com/4nass/demo-keycloak-docker/blob/master/images/traefik.png?raw=true "Traefik")
 
 - Auth: Keycloak + Postgres 
 
-    ![Alt text](https://github.com/AnassChahbouni/DockerKeycloakWorkshop/blob/master/images/keycloak1.png?raw=true "Keycloak")
-    ![Alt text](https://github.com/AnassChahbouni/DockerKeycloakWorkshop/blob/master/images/keycloak2.png?raw=true "Keycloak")
+    ![Alt text](https://github.com/4nass/demo-keycloak-docker/blob/master/images/keycloak1.png?raw=true "Keycloak")
+    ![Alt text](https://github.com/4nass/demo-keycloak-docker/blob/master/images/keycloak2.png?raw=true "Keycloak")
 
 - App1: Wordpress + MySQL a demo Wordpress blog (SAML) 
   
-  ![Alt text](https://github.com/AnassChahbouni/DockerKeycloakWorkshop/blob/master/images/wordpress.png?raw=true "Wordpress")
+  ![Alt text](https://github.com/4nass/demo-keycloak-docker/blob/master/images/wordpress.png?raw=true "Wordpress")
 
 - App2: Kali-ttyd is a tool Kali terminal shared over the web (OIDC) 
   
-  ![Alt text](https://github.com/AnassChahbouni/DockerKeycloakWorkshop/blob/master/images/ttyd.png?raw=true "ttyd")
+  ![Alt text](https://github.com/4nass/demo-keycloak-docker/blob/master/images/ttyd.png?raw=true "ttyd")
 
 - App3: whoami Go based image to return info about the host
   
-  ![Alt text](https://github.com/AnassChahbouni/DockerKeycloakWorkshop/blob/master/images/whoami.png?raw=true "Whoami")
+  ![Alt text](https://github.com/4nass/demo-keycloak-docker/blob/master/images/whoami.png?raw=true "Whoami")
   
 ## Cleaning up:
   
